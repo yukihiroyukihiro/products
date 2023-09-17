@@ -10,3 +10,16 @@ print('印出清單裡所有的商品與價格：', products)#印出清單裡所
 print('印出清單0的所有的商品與價格',products[0]) #印出清單0的所有的商品與價格
 print('印出清單[0][0] -> 清單0的商品：', products[0][0]) #印出清單[0][0] -> 清單0的商品
 print('印出清單[0][1] -> 清單0的價格：', products[0][1]) #印出清單[0][1] -> 清單0的價格
+
+#用for loop一行一行印出products
+print('------------------')
+print('一行一行印出清單：')
+for p in products:
+	print(p)
+
+
+#用for loop一行一行印出products
+print('------------------')
+print('一行一行印出清單的商品與價格：')
+for p in products:
+	print(p[0], '的價格是', p[1])
